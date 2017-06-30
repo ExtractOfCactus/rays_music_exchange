@@ -8,4 +8,8 @@ public class Piano extends Instrument {
     super(brand);
     this.keys = keys;
   }
+
+  public int getKeys() {
+    return this.keys;
+  }
 }

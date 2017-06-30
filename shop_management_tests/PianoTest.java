@@ -16,4 +16,9 @@ public class PianoTest {
   public void canGetBrand() {
     assertEquals("Baldwin", piano1.getBrand());
   }
+
+  @Test
+  public void canGetKeys() {
+    assertEquals(88, piano2.getKeys());
+  }
 }

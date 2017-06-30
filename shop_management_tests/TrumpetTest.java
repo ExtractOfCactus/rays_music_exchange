@@ -16,4 +16,9 @@ public class TrumpetTest {
   public void canGetBrand() {
     assertEquals("Etude", trumpet1.getBrand());
   }
+
+  @Test
+  public void canGetValves() {
+    assertEquals(3, trumpet1.getValves());
+  }
 }

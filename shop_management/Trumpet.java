@@ -8,4 +8,8 @@ public class Trumpet extends Instrument {
     super(brand);
     this.valves = valves;
   }
+
+  public int getValves() {
+    return this.valves;
+  }
 }

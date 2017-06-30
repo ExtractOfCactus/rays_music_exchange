@@ -8,4 +8,8 @@ public class Violin extends Instrument {
     super(brand);
     this.strings = strings;
   }
+
+  public int getStrings() {
+    return this.strings;
+  }
 }

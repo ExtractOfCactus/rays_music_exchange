@@ -16,4 +16,9 @@ public class ViolinTest {
   public void canGetBrand() {
     assertEquals("Mendini", violin2.getBrand());
   }
+
+  @Test
+  public void canGetStrings() {
+    assertEquals(4, violin1.getStrings());
+  }
 }

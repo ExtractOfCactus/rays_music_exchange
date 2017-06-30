@@ -21,4 +21,9 @@ public class ViolinTest {
   public void canGetStrings() {
     assertEquals(4, violin1.getStrings());
   }
+
+  @Test
+  public void canPlay() {
+    assertEquals("VI-oh-LIN", violin1.play());
+  }
 }

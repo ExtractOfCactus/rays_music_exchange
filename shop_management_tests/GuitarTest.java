@@ -21,4 +21,9 @@ public class GuitarTest {
   public void canGetStrings() {
     assertEquals(12, guitar2.getStrings());
   }
+
+  @Test
+  public void canPlay() {
+    assertEquals("GRRitARRRR", guitar2.play());
+  }
 }

@@ -21,4 +21,9 @@ public class PianoTest {
   public void canGetKeys() {
     assertEquals(88, piano2.getKeys());
   }
+
+  @Test
+  public void canPlay() {
+    assertEquals("Tinkle tinkle pi-an-oh", piano2.play());
+  }
 }

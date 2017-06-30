@@ -12,4 +12,8 @@ public class Trumpet extends Instrument {
   public int getValves() {
     return this.valves;
   }
+
+  public String play() {
+    return "trrrrrUMP-ET";
+  }
 }

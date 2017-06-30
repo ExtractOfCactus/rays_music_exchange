@@ -10,5 +10,9 @@ public class Guitar extends Instrument {
     this.strings = strings;
     this.bodyType = bodyType;
   }
+
+  public int getStrings() {
+    return this.strings;
+  }
 }
 

@@ -16,4 +16,9 @@ public class GuitarTest {
   public void canGetBrand() {
     assertEquals("Gibson", guitar1.getBrand());
   }
+
+  @Test
+  public void canGetStrings() {
+    assertEquals(12, guitar2.getStrings());
+  }
 }

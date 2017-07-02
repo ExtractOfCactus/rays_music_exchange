@@ -29,5 +29,13 @@ public class Shop {
     }
     return null;
   }
-  
+
+  public int calculateTotalProfit() {
+    int total = 0;
+    for (Sellable item : stock) {
+      total += item.calculateMarkup();
+    }
+    return total;
+  }
+
 }

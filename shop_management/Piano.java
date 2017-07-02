@@ -2,10 +2,10 @@ package shop_management;
 import behaviours.*;
 
 public class Piano extends Instrument {
-  int keys;
+  private int keys;
 
-  public Piano(int buyingPrice, int sellingPrice, String brand, int keys) {
-    super(buyingPrice, sellingPrice, brand);
+  public Piano(int buyingPrice, int sellingPrice, String brand, int keys, InstrumentType type) {
+    super(buyingPrice, sellingPrice, brand, type);
     this.keys = keys;
   }
 

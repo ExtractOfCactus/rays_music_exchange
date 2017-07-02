@@ -2,10 +2,10 @@ package shop_management;
 import behaviours.*;
 
 public class Violin extends Instrument {
-  int strings;
+  private int strings;
 
-  public Violin(int buyingPrice, int sellingPrice, String brand, int strings) {
-    super(buyingPrice, sellingPrice, brand);
+  public Violin(int buyingPrice, int sellingPrice, String brand, int strings, InstrumentType type) {
+    super(buyingPrice, sellingPrice, brand, type);
     this.strings = strings;
   }
 

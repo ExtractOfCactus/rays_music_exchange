@@ -2,7 +2,7 @@ package shop_management;
 import behaviours.*;
 
 public class DrumSticks extends Accessory {
-  String material;
+  private String material;
 
   public DrumSticks(int buyingPrice, int sellingPrice, String brand, String material) {
     super(buyingPrice, sellingPrice, brand);

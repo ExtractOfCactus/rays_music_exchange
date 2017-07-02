@@ -2,11 +2,11 @@ package shop_management;
 import behaviours.*;
 
 public class Guitar extends Instrument {
-  int strings;
-  String bodyType;
+  private int strings;
+  private String bodyType;
 
-  public Guitar(int buyingPrice, int sellingPrice, String brand, int strings, String bodyType) {
-    super(buyingPrice, sellingPrice, brand);
+  public Guitar(int buyingPrice, int sellingPrice, String brand, int strings, String bodyType, InstrumentType type) {
+    super(buyingPrice, sellingPrice, brand, type);
     this.strings = strings;
     this.bodyType = bodyType;
   }

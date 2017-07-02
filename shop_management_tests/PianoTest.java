@@ -8,8 +8,8 @@ public class PianoTest {
 
   @Before
   public void before() {
-    piano1 = new Piano(2000, 3000, "Baldwin", 85);
-    piano2 = new Piano(2450, 3950, "Yamaha", 88);
+    piano1 = new Piano(2000, 3000, "Baldwin", 85, InstrumentType.KEYBOARD);
+    piano2 = new Piano(2450, 3950, "Yamaha", 88, InstrumentType.KEYBOARD);
   }
 
   @Test

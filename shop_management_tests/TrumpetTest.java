@@ -8,8 +8,8 @@ public class TrumpetTest {
 
   @Before
   public void before() {
-    trumpet1 = new Trumpet(350, 600, "Etude", 3);
-    trumpet2 = new Trumpet(200, 320, "Getzen", 3);
+    trumpet1 = new Trumpet(350, 600, "Etude", 3, InstrumentType.BRASS);
+    trumpet2 = new Trumpet(200, 320, "Getzen", 3, InstrumentType.BRASS);
   }
 
   @Test

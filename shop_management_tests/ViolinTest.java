@@ -8,8 +8,8 @@ public class ViolinTest {
 
   @Before
   public void before() {
-    violin1 = new Violin(400, 680, "Stentor", 4);
-    violin2 = new Violin(540, 800, "Mendini", 4);
+    violin1 = new Violin(400, 680, "Stentor", 4, InstrumentType.STRING);
+    violin2 = new Violin(540, 800, "Mendini", 4, InstrumentType.STRING);
   }
 
   @Test

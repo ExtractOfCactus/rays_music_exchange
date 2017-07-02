@@ -2,10 +2,10 @@ package shop_management;
 import behaviours.*;
 
 public class Trumpet extends Instrument {
-  int valves;
+  private int valves;
 
-  public Trumpet(int buyingPrice, int sellingPrice, String brand, int valves) {
-    super(buyingPrice, sellingPrice, brand);
+  public Trumpet(int buyingPrice, int sellingPrice, String brand, int valves, InstrumentType type) {
+    super(buyingPrice, sellingPrice, brand, type);
     this.valves = valves;
   }
 

@@ -24,4 +24,9 @@ public class AmplifierTest {
   public void canGetBrand() {
     assertEquals("Ibanez", amp1.getBrand());
   }
+
+  @Test
+  public void canGetMadeFor() {
+    assertEquals("Violin", amp2.getMadeFor());
+  }
 }

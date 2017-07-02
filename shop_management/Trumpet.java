@@ -4,8 +4,8 @@ import behaviours.*;
 public class Trumpet extends Instrument {
   int valves;
 
-  public Trumpet(String brand, int valves) {
-    super(brand);
+  public Trumpet(int buyingPrice, int sellingPrice, String brand, int valves) {
+    super(buyingPrice, sellingPrice, brand);
     this.valves = valves;
   }
 

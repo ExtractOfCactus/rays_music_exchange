@@ -8,8 +8,8 @@ public class PianoTest {
 
   @Before
   public void before() {
-    piano1 = new Piano("Baldwin", 85);
-    piano2 = new Piano("Yamaha", 88);
+    piano1 = new Piano(2000, 3000, "Baldwin", 85);
+    piano2 = new Piano(2450, 3950, "Yamaha", 88);
   }
 
   @Test
@@ -25,5 +25,10 @@ public class PianoTest {
   @Test
   public void canPlay() {
     assertEquals("Tinkle tinkle pi-an-oh", piano2.play());
+  }
+
+  @Test
+  public void canCalculateMarkup() {
+    assertEquals(1000, piano1.calculateMarkup());
   }
 }

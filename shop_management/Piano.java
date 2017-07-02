@@ -4,8 +4,8 @@ import behaviours.*;
 public class Piano extends Instrument {
   int keys;
 
-  public Piano(String brand, int keys) {
-    super(brand);
+  public Piano(int buyingPrice, int sellingPrice, String brand, int keys) {
+    super(buyingPrice, sellingPrice, brand);
     this.keys = keys;
   }
 

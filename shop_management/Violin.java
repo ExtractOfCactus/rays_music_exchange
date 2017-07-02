@@ -4,8 +4,8 @@ import behaviours.*;
 public class Violin extends Instrument {
   int strings;
 
-  public Violin(String brand, int strings) {
-    super(brand);
+  public Violin(int buyingPrice, int sellingPrice, String brand, int strings) {
+    super(buyingPrice, sellingPrice, brand);
     this.strings = strings;
   }
 

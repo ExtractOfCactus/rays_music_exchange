@@ -8,8 +8,8 @@ public class GuitarTest {
 
   @Before
   public void before() {
-    guitar1 = new Guitar("Gibson", 6, "Les Paul");
-    guitar2 = new Guitar("Ibanez", 12, "SG");
+    guitar1 = new Guitar(1100, 1800, "Gibson", 6, "Les Paul");
+    guitar2 = new Guitar(750, 1400, "Ibanez", 12, "SG");
   }
 
   @Test
@@ -25,6 +25,11 @@ public class GuitarTest {
   @Test
   public void canPlay() {
     assertEquals("GRRitARRRR", guitar2.play());
+  }
+
+  @Test
+  public void canCalculateMarkup() {
+    assertEquals(700, guitar1.calculateMarkup());
   }
 
 }

@@ -1,7 +1,7 @@
 package shop_management;
 import behaviours.*;
 
-abstract class Accessory {
+abstract class Accessory implements Sellable {
   int buyingPrice;
   int sellingPrice;
   String brand;
@@ -22,5 +22,9 @@ abstract class Accessory {
 
   public String getBrand() {
     return this.brand;
+  }
+
+  public int calculateMarkup() {
+    return (this.sellingPrice - this.buyingPrice);
   }
 }

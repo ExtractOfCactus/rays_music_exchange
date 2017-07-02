@@ -31,4 +31,9 @@ public class AmplifierTest {
   public void canGetMadeFor() {
     assertEquals("Violin", amp2.getMadeFor());
   }
+
+  @Test
+  public void canCalculateMarkup() {
+    assertEquals(300, amp1.calculateMarkup());
+  }
 }

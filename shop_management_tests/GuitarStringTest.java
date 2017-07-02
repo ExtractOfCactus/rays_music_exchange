@@ -32,4 +32,9 @@ public class GuitarStringTest {
     assertEquals(0.032, stringSet2.getGauge(), 0.001);
   }
 
+  @Test
+  public void canCalculateMarkup() {
+    assertEquals(15, stringSet1.calculateMarkup());
+  }
+
 }

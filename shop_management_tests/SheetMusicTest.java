@@ -32,4 +32,9 @@ public class SheetMusicTest {
     assertEquals("Classical", sheetMusic2.getGenre());
   }
 
+  @Test
+  public void canCalculateMarkup() {
+    assertEquals(29, sheetMusic1.calculateMarkup());
+  }
+
 }

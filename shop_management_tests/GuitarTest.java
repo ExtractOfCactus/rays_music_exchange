@@ -26,4 +26,5 @@ public class GuitarTest {
   public void canPlay() {
     assertEquals("GRRitARRRR", guitar2.play());
   }
+
 }

@@ -20,5 +20,11 @@ public class ShopTest {
     assertEquals(0, shop.stockCount());
   }
 
+  @Test
+  public void canAddItemToStock() {
+    Guitar guitar = new Guitar(1100, 1800, "Gibson", 6, "Les Paul");
+    shop.addStock(guitar);
+    assertEquals(1, shop.stockCount());
+  }
   
 }

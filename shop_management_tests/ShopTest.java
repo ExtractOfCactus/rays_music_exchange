@@ -26,5 +26,13 @@ public class ShopTest {
     shop.addStock(guitar);
     assertEquals(1, shop.stockCount());
   }
+
+  @Test
+  public void canRemoveItemsFromStock() {
+    Guitar guitar = new Guitar(1100, 1800, "Gibson", 6, "Les Paul");
+    shop.addStock(guitar);
+    shop.removeStock();
+    assertEquals(0, shop.stockCount());
+  }
   
 }

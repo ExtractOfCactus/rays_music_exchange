@@ -22,4 +22,11 @@ public class Shop {
   public void addStock(Sellable item) {
     this.stock.add(item);
   }
+
+  public Sellable removeStock() {
+    if (stockCount() > 0) {
+      return stock.remove(0);
+    }
+    return null;
+  }
 }

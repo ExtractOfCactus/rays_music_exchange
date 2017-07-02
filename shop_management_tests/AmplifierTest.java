@@ -20,7 +20,9 @@ public class AmplifierTest {
   @Test
   public void canGetSellingPrice() {
     assertEquals(400, amp2.getSellingPrice());
-  }@Test
+  }
+
+  @Test
   public void canGetBrand() {
     assertEquals("Ibanez", amp1.getBrand());
   }

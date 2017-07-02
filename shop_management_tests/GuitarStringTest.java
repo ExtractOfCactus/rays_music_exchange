@@ -20,7 +20,9 @@ public class GuitarStringTest {
   @Test
   public void canGetSellingPrice() {
     assertEquals(25, stringSet2.getSellingPrice());
-  }@Test
+  }
+
+  @Test
   public void canGetBrand() {
     assertEquals("Elixir", stringSet1.getBrand());
   }

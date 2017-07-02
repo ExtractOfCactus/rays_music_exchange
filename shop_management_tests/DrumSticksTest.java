@@ -20,7 +20,9 @@ public class DrumSticksTest {
   @Test
   public void canGetSellingPrice() {
     assertEquals(20, stickSet2.getSellingPrice());
-  }@Test
+  }
+
+  @Test
   public void canGetBrand() {
     assertEquals("Pro-Mark", sticksSet1.getBrand());
   }

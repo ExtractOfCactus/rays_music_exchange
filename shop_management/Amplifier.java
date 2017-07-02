@@ -7,7 +7,6 @@ public class Amplifier extends Accessory{
   public Amplifier(int buyingPrice, int sellingPrice, String brand, String madeFor) {
     super(buyingPrice, sellingPrice, brand);
     this.madeFor = madeFor;
-
   }
 
   public String getMadeFor() {

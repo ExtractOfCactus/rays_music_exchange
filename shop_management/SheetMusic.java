@@ -2,7 +2,7 @@ package shop_management;
 import behaviours.*;
 
 public class SheetMusic extends Accessory {
-  String genre;
+  private String genre;
 
   public SheetMusic(int buyingPrice, int sellingPrice, String brand, String genre) {
     super(buyingPrice, sellingPrice, brand);

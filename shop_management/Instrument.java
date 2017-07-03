@@ -2,10 +2,10 @@ package shop_management;
 import behaviours.*;
 
 abstract class Instrument implements Playable, Sellable{
-  private int buyingPrice;
-  private int sellingPrice;
-  private String brand;
-  private InstrumentType type;
+  protected int buyingPrice;
+  protected int sellingPrice;
+  protected String brand;
+  protected InstrumentType type;
 
   public Instrument(int buyingPrice, int sellingPrice, String brand, InstrumentType type) {
     this.buyingPrice = buyingPrice;

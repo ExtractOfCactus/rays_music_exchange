@@ -2,9 +2,9 @@ package shop_management;
 import behaviours.*;
 
 abstract class Accessory implements Sellable {
-  private int buyingPrice;
-  private int sellingPrice;
-  private String brand;
+  protected int buyingPrice;
+  protected int sellingPrice;
+  protected String brand;
 
   public Accessory(int buyingPrice, int sellingPrice, String brand) {
     this.buyingPrice = buyingPrice;

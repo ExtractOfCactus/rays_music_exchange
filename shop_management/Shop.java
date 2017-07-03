@@ -23,11 +23,10 @@ public class Shop {
     this.stock.add(item);
   }
 
-  public Sellable removeStock() {
-    if (stockCount() > 0) {
-      return stock.remove(0);
+  public void removeStock(Sellable item) {
+    if (stock.remove(item) == true) {
+      stock.remove(item);
     }
-    return null;
   }
 
   public int calculateTotalProfit() {

@@ -35,7 +35,7 @@ public class ShopTest {
   @Test
   public void canRemoveItemsFromStock() {
     shop.addStock(guitar);
-    shop.removeStock();
+    shop.removeStock(guitar);
     assertEquals(0, shop.stockCount());
   }
 
